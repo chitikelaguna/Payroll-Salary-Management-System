@@ -1,0 +1,9 @@
+{% extends 'payroll/base.html' %}
+{% block content %}
+<h2>Dashboard</h2>
+<ul class="list-group">
+  <li class="list-group-item">Total Employees: {{ employee_count }}</li>
+  <li class="list-group-item">Total Leaves: {{ leave_count }}</li>
+  <li class="list-group-item">Total Salaries: {{ salary_count }}</li>
+</ul>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'payroll/base.html' %}
+{% block content %}
+<h2>Leave Requests</h2>
+<table class="table">
+  <thead><tr><th>Employee</th><th>Type</th><th>Status</th></tr></thead>
+  <tbody>
+    {% for leave in leaves %}
+    <tr><td>{{ leave.employee.name }}</td><td>{{ leave.leave_type }}</td><td>{{ leave.status }}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

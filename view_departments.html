@@ -1,0 +1,9 @@
+{% extends 'payroll/base.html' %}
+{% block content %}
+<h2>Departments</h2>
+<ul class="list-group">
+  {% for dept in departments %}
+  <li class="list-group-item">{{ dept.name }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
