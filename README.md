@@ -32,48 +32,48 @@ A complete Payroll and Salary Management System built using **Django** and **MyS
 ## 📂 Project Structure
 
 payroll-management-system/
-├── payroll_management_system/ # Main project folder
-│ ├── init.py
-│ ├── settings.py
-│ ├── urls.py
-│ └── wsgi.py
-│
-├── payroll/ # Payroll app
-│ ├── migrations/
-│ │ └── init.py
-│ ├── templates/
-│ │ └── payroll/
-│ │ ├── base.html
-│ │ ├── login.html
-│ │ ├── admin_dashboard.html
-│ │ ├── employee_list.html
-│ │ ├── add_employee.html
-│ │ ├── edit_employee.html
-│ │ ├── view_employee.html
-│ │ ├── employee_search.html
-│ │ ├── mark_attendance.html
-│ │ ├── view_employee_attendance.html
-│ │ ├── apply_leave.html
-│ │ ├── leave_requests_list.html
-│ │ ├── salary_detail.html
-│ │ ├── add_department.html
-│ │ ├── view_departments.html
-│ │ ├── add_designation.html
-│ │ └── view_designations.html
-│ ├── static/
-│ │ └── (optional CSS/JS files)
-│ ├── admin.py
-│ ├── apps.py
-│ ├── forms.py
-│ ├── models.py
-│ ├── tests.py
-│ ├── urls.py
-│ └── views.py
-│
-├── db.sqlite3 or MySQL database (configured in settings)
-├── manage.py
-├── requirements.txt
-└── README.md
+### ├── payroll_management_system/ # Main project folder
+### │ ├── init.py
+### │ ├── settings.py
+### │ ├── urls.py
+### │ └── wsgi.py
+### │
+### ├── payroll/ # Payroll app
+### │ ├── migrations/
+### │ │ └── init.py
+### │ ├── templates/
+### │ │ └── payroll/
+### │ │ ├── base.html
+### │ │ ├── login.html
+### │ │ ├── admin_dashboard.html
+### │ │ ├── employee_list.html
+### │ │ ├── add_employee.html
+### │ │ ├── edit_employee.html
+### │ │ ├── view_employee.html
+### │ │ ├── employee_search.html
+### │ │ ├── mark_attendance.html
+### │ │ ├── view_employee_attendance.html
+### │ │ ├── apply_leave.html
+### │ │ ├── leave_requests_list.html
+### │ │ ├── salary_detail.html
+### │ │ ├── add_department.html
+### │ │ ├── view_departments.html
+### │ │ ├── add_designation.html
+### │ │ └── view_designations.html
+### │ ├── static/
+### │ │ └── (optional CSS/JS files)
+### │ ├── admin.py
+### │ ├── apps.py
+### │ ├── forms.py
+### │ ├── models.py
+### │ ├── tests.py
+### │ ├── urls.py
+### │ └── views.py
+### │
+### ├── db.sqlite3 or MySQL database (configured in settings)
+### ├── manage.py
+### ├── requirements.txt
+### └── README.md
 
 ### 1️⃣ Clone the Repository
 
